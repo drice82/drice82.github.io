@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ip100.info-测试你的IP</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="ip测试, ip地址查询, IP信息, IP归属地查询" />
+</head>
+
+<body>
+
+<h1 style="text-align:center">测试你的IP</h1>
+
+<style>
+/* 简易数据表格-格边框 */
+.m-table{table-layout:fixed;width:75%;line-height:1.5;margin:auto;background:#f0f0f0;}
+.m-table th,.m-table td{padding:10px;border:1px solid #ddd;}
+.m-table th{font-weight:bold;}
+.m-table tbody tr:nth-child(2n){background:#f0f0f0;}
+.m-table tbody tr:hover{background:#fafafa;}
+.m-table .cola{width:100px;background:#f0f0f0;}
+.m-table .colb{width:250px;background:#f0f0f0;}
+.m-table .colc{width:250px;background:#f0f0f0;}
+/* 简易数据表格-行边框*/
+.m-table-row th,.m-table-row td{border-width:0 0 1px;}
+/* 简易数据表格-圆角*/
+.m-table-rds{border-collapse:separate;border:1px solid #ddd;border-width:0 1px 1px 0;border-radius:5px;}
+.m-table-rds th,.m-table-rds td{border-width:1px 0 0 1px;}
+.m-table-rds > :first-child > :first-child > :first-child{border-top-left-radius:5px;}
+.m-table-rds > :first-child > :first-child > :last-child{border-top-right-radius:5px;}
+.m-table-rds > :last-child > :last-child > :first-child{border-bottom-left-radius:5px;}
+.m-table-rds > :last-child > :last-child > :last-child{border-bottom-right-radius:5px;}
+</style>
+
+<table class="m-table">
+    <thead>
+        <tr><th class="cola">测试点</th><th class="colb">IP信息</th><th class="colc">说明</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>国内网站</td><td><iframe src="http://59.111.101.206/ip6.php" height="80px" frameborder="0" scrolling="no"> </iframe></td><td>这里显示的是您访问国内站点的IP，通常是您本机或路由器的IP。全局状态下，则显示代理服务器IP。</td></tr>
+        <tr><td>国外普通网站</td><td><iframe src="http://ip100.info/ip6.php" height="80px" frameborder="0" scrolling="no"> </iframe></td><td>这里显示的是您访问国外普通站点的IP，全局或“国外IP走代理”或“大陆白名单”模式下，则是代理服务器的IP。</td></tr>
+        <tr><td>Google/Youtube等无法直接访问的站点</td><td><iframe src="http://ip100info.appspot.com/ip6.php" height="80px" frameborder="0" scrolling="no"> </iframe></td><td>如果这里没有显示出IP，说明您还不能访问Google等网站；如果显示了IP，此IP通常是您的代理服务器IP。</td></tr>
+    </tbody>
+</table>
+
+<p><h5 style="text-align:center">感谢<a href="https://www.acrossgw.net" target="_blank">AcrossGW</a>提供服务器支持</h5></p>
+
+<p><h5 style="text-align:center">Copyright © 2016.<a href="http://ip100.info" target="_blank">ip100.info</a> All rights reserved.</h5></p>
+</body>
+</html>
