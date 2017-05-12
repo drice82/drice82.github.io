@@ -1,4 +1,5 @@
 dpkg-reconfigure tzdata 
+apt-get update
 apt-get install python-pip git python-m2crypto supervisor vnstat lftp fail2ban wget 
 pip install cymysql
 cd /
